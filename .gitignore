@@ -1,0 +1,39 @@
+# dirs
+# data heavy folders structure
+.snakemake/
+.wBuild*
+^test
+
+# typical latex tmp files
+*.aux
+*.log
+*.synctex.gz
+*.bbl
+*.blg
+*.out
+*.pdf
+*.RData*
+
+# snakemake build
+auto
+
+# IDE project files
+*.project
+readme.html
+*.Rproj
+.Rproj.user
+.Rhistory
+
+# other
+*~
+.ipynb_
+*.ipynb_*
+slurm-*.out
+__pycache__
+~$
+_cache
+*_cache
+*_files
+*.cache
+tmp/
+
